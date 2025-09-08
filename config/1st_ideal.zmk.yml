@@ -1,0 +1,14 @@
+file_format: "1"
+id: 1st_ideal
+name: 1st Ideal
+type: shield
+url: https://github.com/jkorinth/zmk-1st-ideal/
+requires: [seeeduino_xiao_ble]
+exposes: []
+features:
+  - keys
+  - underglow
+  - studio
+siblings:
+  - 1st_ideal_left
+  - 1st_ideal_right

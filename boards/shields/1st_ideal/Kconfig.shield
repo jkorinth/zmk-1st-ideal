@@ -1,0 +1,5 @@
+config SHIELD_1ST_IDEAL_LEFT
+	def_bool $(shields_list_contains,1st_ideal_left)
+
+config SHIELD_1ST_IDEAL_RIGHT
+	def_bool $(shields_list_contains,1st_ideal_right)

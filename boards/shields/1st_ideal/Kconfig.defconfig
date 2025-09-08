@@ -1,0 +1,22 @@
+if SHIELD_1ST_IDEAL_LEFT
+
+config ZMK_KEYBOARD_NAME
+	default "1st Ideal"
+
+config ZMK_SPLIT_ROLE_CENTRAL
+	default y
+
+endif
+
+if SHIELD_1ST_IDEAL_LEFT || SHIELD_1ST_IDEAL_RIGHT
+
+config ZMK_SPLIT
+	default y
+
+config I2C
+	default y
+
+config GPIO
+	default y
+
+endif

@@ -1,0 +1,4 @@
+#include "1st_ideal.dtsi"
+&default_transform {
+	col-offset = <6>;
+};
